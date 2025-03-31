@@ -1,46 +1,37 @@
-Lista de Compras em Java
+```markdown
+# Lista de Compras em Java
 
-Descrição
+## Descrição
+Este projeto é uma implementação simples de uma lista de compras em **Java**, utilizando a classe `ArrayList` para armazenar itens. O usuário pode adicionar até 5 itens, remover itens existentes e visualizar a lista completa.
 
-Este é um projeto simples em Java que implementa uma lista de compras utilizando ArrayList. O usuário pode adicionar até 5 itens, remover itens existentes e exibir a lista de compras.
+## Funcionalidades
+- Adicionar itens à lista (limite de 5 itens);
+- Remover itens da lista;
+- Exibir os itens cadastrados;
+- Menu interativo via terminal.
 
-Funcionalidades
+## Tecnologias Utilizadas
+- **Java**
+- **Scanner** para entrada de dados
+- **ArrayList** para armazenamento dinâmico
 
-Adicionar itens à lista (limite de 5 itens)
+## Como Executar o Projeto
+1. Certifique-se de ter o **JDK** instalado na sua máquina.
+2. Copie o código para um arquivo chamado `Main.java`.
+3. Compile o programa usando:
+   ```sh
+   javac Main.java
+   ```
+4. Execute o programa com:
+   ```sh
+   java Main
+   ```
+5. Utilize as opções do menu para interagir com a lista de compras.
 
-Remover itens da lista
+## Estrutura do Código
+- `Main.java`: Contém o menu interativo e a interação com o usuário.
+- `ListaDeCompras.java`: Gerencia a adição, remoção e exibição dos itens na lista.
 
-Exibir os itens cadastrados
 
-Menu interativo no terminal
 
-Tecnologias Utilizadas
-
-Java: Linguagem de programação principal
-
-Scanner: Entrada de dados pelo usuário
-
-ArrayList: Armazenamento dinâmico dos itens
-
-Como Executar o Projeto
-
-Certifique-se de ter o JDK instalado na sua máquina.
-
-Copie o código-fonte para um arquivo Main.java.
-
-Compile o programa usando:
-
-javac Main.java
-
-Execute o programa com:
-
-java Main
-
-Siga as instruções no terminal para adicionar, remover e visualizar os itens da lista de compras.
-
-Estrutura do Código
-
-ListaDeCompras
-├── Main.java   # Classe principal com o menu interativo
-└── ListaDeCompras.java   # Classe para gerenciar a lista de compras
 
